@@ -95,6 +95,7 @@ h2{
   font-family: 'Dark Ministry';
   font-weight: 50;
   font-size: 60px;
+  padding-top: 3%;
 color: #5eaaa8;
 letter-spacing: 3px;
 }
@@ -165,7 +166,7 @@ letter-spacing: 3px;
 }
 
 .container-fluid{
-  padding: 1% 10%;
+  padding: 3% 10%;
 }
 
 .pic{
@@ -186,12 +187,12 @@ letter-spacing: 3px;
 }
 
 .sidersection{
+
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../image/Pic1.jpg);
 
 }
 .carousel-inner{
-  padding: 1% 20% 2%;
-
+  padding: 5% 20%;
 }
 
 
@@ -205,6 +206,7 @@ letter-spacing: 3px;
 .social-icon {
   margin: 20px 10px;
   color: grey;
+  font-size: 50px;
 }
 
 .social-icon:hover{
@@ -226,29 +228,24 @@ font-size: 50px;
 letter-spacing: 3px;
 }
 
-.map{
-  padding-right: 10%;
-}
-.address{
-padding-left: 10%;
-}
+
 
 @media (max-width: 1028px) {
 
   h1 {
     text-align: center;
     font-weight: 50;
-    font-size: 80px;
+    font-size: 120px;
     }
 
-  .button{
+  /* .button{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 15px;
 
-  }
+  } */
 
 
 }
