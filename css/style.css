@@ -107,7 +107,7 @@ letter-spacing: 3px;
   top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-size: 20px;
+
 }
 
 .btn{
@@ -117,6 +117,7 @@ letter-spacing: 3px;
   color: white;
   text-decoration: none;
   transition: 0.6s ease;
+  font-size: 20px;
 }
 
 .btn:hover{
